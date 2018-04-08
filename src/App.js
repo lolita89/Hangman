@@ -51,7 +51,9 @@ class App extends Component {
     if (wrongGuesses === 9){
       alert('GAME OVER!');
     }
-  }
+    //for disabling buttons
+    document.getElementById(letter).setAttribute('disabled', 'disabled');
+}
   // ===================================================
 
   // ===================================================
