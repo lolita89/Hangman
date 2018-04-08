@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src="http://channels.roku.com/images/c4d0146ba6b34c068341249e3fe3d8f4-hd.jpg" className="App-logo" alt="logo" />
+          <img class="centerimage" src="http://channels.roku.com/images/c4d0146ba6b34c068341249e3fe3d8f4-hd.jpg"/>
           <h1 className="App-title">Welcome to Hangman App</h1>
         </header>
         <body className="App-game">
@@ -17,7 +17,7 @@ class App extends Component {
         <input type="text" disabled/>
         <input type="text" disabled/>
         <br/>
-        <br/>        
+        <br/>
           <button type="button">A</button>
           <button type="button">B</button>
           <button type="button">C</button>
