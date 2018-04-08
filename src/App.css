@@ -3,3 +3,11 @@
 .App h1 {
   text-align: center;
 }
+
+input {
+    width: 20px;
+}
+
+.wrapper {
+    text-align: center;
+}
